@@ -2,7 +2,7 @@
 int incomingByte = 0; // for incoming serial data
 
 void setup() {
-  Serial.begin(9600); // opens serial port, sets data rate to 9600 bps
+  Serial.begin(115200); // opens serial port
 }
 
 void loop() {
@@ -12,9 +12,9 @@ void loop() {
     incomingByte = Serial.read();
 
     // say what you got:
-    Serial.print("ASCII HEX BIN DEC: ");
-    Serial.print((char)incomingByte);
-    Serial.print("  ");
+    Serial.print("HEX BIN DEC: ");
+    // Serial.print((char)incomingByte);
+    // Serial.print("  ");
     Serial.print(incomingByte, 16);
     Serial.print("  ");
     Serial.print(incomingByte, 2);
