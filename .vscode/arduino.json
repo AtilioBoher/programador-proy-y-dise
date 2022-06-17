@@ -1,0 +1,7 @@
+{
+    "port": "COM6",
+    "board": "arduino:avr:uno",
+    "programmer": "arduino:avrispmkii",
+    "sketch": "arduinoCode\\serialEcho\\serialEcho.ino",
+    "output": "../serialCom/arduinoCode/ArduinoOutput"
+}
