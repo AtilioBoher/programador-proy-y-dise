@@ -22,7 +22,7 @@ print("datos: ", data, "\nlenght of data: ", len(data), "\n")
 
 
 for i in range(len(data)):
-    arduino.write([data[i]]) # arduino.write() recibe una lista, [data[i]] es una lista de un elemento, que es del tipo byte
+    arduino.write([data[i]]) # arduino.write() recibe una lista, [data[i]] es una lista de un elemento, data[i] es del tipo byte
     # time.sleep(0.1)    # al parecer no hace falta esperar,
     received = arduino.readline()   # se puede usar "arduino.readline().decode('ascii')"
     print(received[:-1])            # pero a veces tira error y dice que no puede decodificar un valor
