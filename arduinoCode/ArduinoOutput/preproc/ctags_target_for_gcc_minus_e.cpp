@@ -1,4 +1,4 @@
-# 1 "c:\\Users\\atilioboher\\Desktop\\serialCom\\arduinoCode\\serialEcho\\serialEcho.ino"
+# 1 "c:\\Users\\atilioboher\\Mi unidad\\Facultad\\5to (2022)\\Proyecto y Diseño Electrónico\\programador\\serialCom\\arduinoCode\\serialEcho\\serialEcho.ino"
 int incomingByte = 0; // for incoming serial data
 
 void setup() {

@@ -1,5 +1,5 @@
-c:\Users\atilioboher\Desktop\serialCom\arduinoCode\ArduinoOutput\sketch\serialEcho.ino.cpp.o: \
- c:\Users\atilioboher\Desktop\serialCom\arduinoCode\ArduinoOutput\sketch\serialEcho.ino.cpp \
+c:\Users\atilioboher\Mi\ unidad\Facultad\5to\ (2022)\Proyecto\ y\ Diseño\ Electrónico\programador\serialCom\arduinoCode\ArduinoOutput\sketch\serialEcho.ino.cpp.o: \
+ c:\Users\atilioboher\Mi\ unidad\Facultad\5to\ (2022)\Proyecto\ y\ Diseño\ Electrónico\programador\serialCom\arduinoCode\ArduinoOutput\sketch\serialEcho.ino.cpp \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino/binary.h \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino/WCharacter.h \

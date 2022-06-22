@@ -1,4 +1,4 @@
-c:\Users\atilioboher\Desktop\serialCom\arduinoCode\ArduinoOutput\core\CDC.cpp.o: \
+c:\Users\atilioboher\Mi\ unidad\Facultad\5to\ (2022)\Proyecto\ y\ Diseño\ Electrónico\programador\serialCom\arduinoCode\ArduinoOutput\core\CDC.cpp.o: \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino\CDC.cpp \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino\USBAPI.h \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h \

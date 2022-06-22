@@ -1,10 +1,13 @@
 import serial
 import time
 
-# constants
+# constants ------------------------------------------------------
 fileName = "5_concatenado.hex"
 comPort = "COM5"
 baudRate = 115200
+writeInMemory = False   # when false the code will only print the bytes of memory with
+                        # the porpuse of checking and will skip the writing process
+# ----------------------------------------------------------------
 
 # this function sends data and print the response
 def sendAndPrintResponse(serialObject, dataToSend):
@@ -86,10 +89,12 @@ arduino = serial.Serial(
 time.sleep(3)   # por alguna razón el arduino se reinicia cuando se corre el programa,
                 # por lo que hay que esperar a que se encienda
 try:
-    for i in range(len(recordType)):
-        if recordType[i] == "00":
-            sendAndPrintResponse(arduino, writeInstr[i])
-    print("La escritura a finalizado \nA continuación se muestran los datos en la memoria \n")
+    if writeInMemory == True:
+        for i in range(len(recordType)):
+            if recordType[i] == "00":
+                sendAndPrintResponse(arduino, writeInstr[i])
+        print("La escritura a finalizado \n")
+    print("A continuación se muestran los datos en la memoria \n")
     for i in range(len(recordType)):
         if recordType[i] == "00":
             checkData(arduino, readInstr[i], hexData[i])

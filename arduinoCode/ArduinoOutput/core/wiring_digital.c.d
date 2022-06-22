@@ -1,4 +1,4 @@
-c:\Users\atilioboher\Desktop\serialCom\arduinoCode\ArduinoOutput\core\wiring_digital.c.o: \
+c:\Users\atilioboher\Mi\ unidad\Facultad\5to\ (2022)\Proyecto\ y\ Diseño\ Electrónico\programador\serialCom\arduinoCode\ArduinoOutput\core\wiring_digital.c.o: \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino\wiring_private.h \
  D:\archivos_de_programa\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h \
